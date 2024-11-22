@@ -1,0 +1,40 @@
+/* ServoControl.css */
+.servo-control-container {
+    width: 100%;
+    max-width: 400px;
+    padding: 20px;
+    background: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+  }
+  
+  .servo-control-title {
+    font-size: 24px;
+    font-weight: 600;
+    color: #333333;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .servo-buttons {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .servo-button {
+    background-color: #28a745;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .servo-button:hover {
+    background-color: #218838;
+  }
+  

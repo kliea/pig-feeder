@@ -1,0 +1,84 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background-color: #f7f9fc;
+}
+
+.dashboard-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 15px; /* Reduced margin */
+}
+
+.dashboard-title {
+  font-size: 24px; /* Slightly smaller title font size */
+  font-weight: 600;
+  color: #333333;
+}
+
+.logout-button {
+  background-color: #ff4d4f;
+  color: white;
+  font-size: 14px; /* Smaller button font */
+  padding: 6px 12px; /* Reduced padding */
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.logout-button:hover {
+  background-color: #d43f3a;
+}
+
+.dashboard-content {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px; /* Reduced gap between elements */
+}
+
+.servo-control {
+  width: 100%;
+  text-align: center;
+}
+
+.total-kilos {
+  text-align: center;
+  font-size: 16px; /* Smaller text size */
+  font-weight: 600;
+  color: #333333;
+}
+
+.chart-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width: 768px) {
+  .dashboard-container {
+    padding: 12px; /* Reduced padding for smaller screens */
+  }
+
+  .dashboard-title {
+    font-size: 20px; /* Smaller title font for mobile */
+  }
+
+  .total-kilos h2 {
+    font-size: 14px; /* Smaller text size on mobile */
+  }
+
+  .logout-button {
+    font-size: 12px; /* Smaller logout button font */
+    padding: 5px 10px; /* Reduced button padding */
+  }
+
+  .servo-control button {
+    padding: 8px 15px; /* Adjust button padding for mobile */
+  }
+}
